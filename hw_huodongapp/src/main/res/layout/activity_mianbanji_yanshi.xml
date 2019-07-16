@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <megvii.testfacepass.camera.CameraPreview
+        android:id="@+id/preview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <megvii.testfacepass.view.FaceView
+        android:id="@+id/fcview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:src="@drawable/dabgbg"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/qiandaobg"
+        android:layout_centerInParent="true"
+        android:src="@drawable/qdc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/chifantv"
+        android:textSize="90sp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:text="自助餐厅"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/shezhi"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+
+
+    <ImageView
+        android:id="@+id/shezhi2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/ghjj"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/yanshi11"
+            android:layout_width="200dp"
+            android:onClick="im11"
+            android:layout_marginRight="10dp"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:onClick="im22"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/yanshi33"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:onClick="im33"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/yanshi22"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

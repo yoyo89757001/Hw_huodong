@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:id="@+id/llllll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/klkl"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/yanshi_tc_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/touxiang"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/name"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        app:minTextSize="12sp"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/bumen"
+        android:maxLines="2"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:minTextSize="12sp"
+        android:textSize="36sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/klkl"
+            android:orientation="horizontal"
+            android:id="@+id/xiaoxi_ll"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/yanshi11"
+                android:id="@+id/im1"
+                android:scaleType="fitXY"
+                android:layout_width="0dp"
+                android:paddingLeft="30dp"
+                android:onClick="im1"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/im2"
+                android:onClick="im2"
+                android:src="@drawable/yanshi33"
+                android:scaleType="fitXY"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:src="@drawable/yanshi22"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:id="@+id/im3"
+                android:onClick="im3"
+                android:scaleType="fitXY"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

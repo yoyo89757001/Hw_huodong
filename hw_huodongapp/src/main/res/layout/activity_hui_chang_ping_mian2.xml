@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m4bg22"
+    tools:context="megvii.testfacepass.ui.YiChengXinXiActivity">
+
+
+    <ImageView
+        android:src="@drawable/hwlogo2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:id="@+id/ewew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_below="@+id/ewew"
+        android:id="@+id/ddddfff"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/blake"
+        android:textSize="90sp"
+        android:gravity="center"
+        android:text="智能进化  平台应变"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <TextView
+        android:id="@+id/rtrtr"
+        android:textColor="@color/blake"
+        android:textSize="30sp"
+        android:text="华为中国生态之行2019"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ddddfff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/m4ditu"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/rtrtr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:background="@drawable/zk_lan222"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/daojishi"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/blake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
